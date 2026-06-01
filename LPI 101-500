@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'affichage d'informations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .info-section {
+            margin-bottom: 20px;
+        }
+        .info-section h2 {
+            color: #444;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Informations à afficher</h1>
+
+        <div class="info-section">
+            <h2>À propos</h2>
+            <p>Certification Linux LPI 101-500.</p>
+        </div>
+
+        <div class="info-section">
+            <h2>Données</h2>
+            <ul>
+                <li><strong>Nom :</strong> Exemple</li>
+                <li><strong>Date :</strong> 01/06/2026</li>
+                <li><strong>Statut :</strong> Actif</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h2>Contact</h2>
+            <p>Email : contact@example.com</p>
+            <p>Téléphone : +33 1 23 45 67 89</p>
+        </div>
+    </div>
+</body>
+</html>
